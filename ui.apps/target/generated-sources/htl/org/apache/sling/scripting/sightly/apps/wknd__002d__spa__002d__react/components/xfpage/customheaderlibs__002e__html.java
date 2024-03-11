@@ -37,7 +37,7 @@ public final class customheaderlibs__002e__html extends RenderUnit {
 Object _global_page = null;
 Object _dynamic_wcmmode = bindings.get("wcmmode");
 Object _global_clientlib = null;
-out.write("\r\n\r\n");
+out.write("\n\n");
 _global_page = renderContext.call("use", com.adobe.aem.spa.project.core.models.Page.class.getName(), obj());
 out.write("<meta property=\"cq:pagemodel_root_url\"");
 {
@@ -60,37 +60,37 @@ out.write("<meta property=\"cq:pagemodel_root_url\"");
         }
     }
 }
-out.write("/>\r\n\r\n<base href=\"/\"/>\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"/>\r\n\r\n");
+out.write("/>\n\n<base href=\"/\"/>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"/>\n\n");
 {
     Object var_testvariable4 = ((renderContext.getObjectModel().toBoolean(renderContext.getObjectModel().resolveProperty(_dynamic_wcmmode, "edit")) ? renderContext.getObjectModel().resolveProperty(_dynamic_wcmmode, "edit") : renderContext.getObjectModel().resolveProperty(_dynamic_wcmmode, "preview")));
     if (renderContext.getObjectModel().toBoolean(var_testvariable4)) {
         out.write("<meta property=\"cq:datatype\" content=\"JSON\"/>");
     }
 }
-out.write("\r\n");
+out.write("\n");
 {
     Object var_testvariable5 = renderContext.getObjectModel().resolveProperty(_dynamic_wcmmode, "edit");
     if (renderContext.getObjectModel().toBoolean(var_testvariable5)) {
         out.write("<meta property=\"cq:wcmmode\" content=\"edit\"/>");
     }
 }
-out.write("\r\n");
+out.write("\n");
 {
     Object var_testvariable6 = renderContext.getObjectModel().resolveProperty(_dynamic_wcmmode, "preview");
     if (renderContext.getObjectModel().toBoolean(var_testvariable6)) {
         out.write("<meta property=\"cq:wcmmode\" content=\"preview\"/>");
     }
 }
-out.write("\r\n");
+out.write("\n");
 {
     Object var_testvariable7 = renderContext.getObjectModel().resolveProperty(_dynamic_wcmmode, "disabled");
     if (renderContext.getObjectModel().toBoolean(var_testvariable7)) {
         out.write("<meta property=\"cq:wcmmode\" content=\"disabled\"/>");
     }
 }
-out.write("\r\n\r\n");
+out.write("\n\n");
 _global_clientlib = renderContext.call("use", "/libs/granite/sightly/templates/clientlib.html", obj());
-out.write("\r\n\r\n");
+out.write("\n\n");
 {
     Object var_templatevar8 = renderContext.getObjectModel().resolveProperty(_global_clientlib, "all");
     {
@@ -101,7 +101,7 @@ out.write("\r\n\r\n");
         }
     }
 }
-out.write("\r\n");
+out.write("\n");
 {
     Object var_templatevar10 = renderContext.getObjectModel().resolveProperty(_global_clientlib, "css");
     {
@@ -112,7 +112,7 @@ out.write("\r\n");
         }
     }
 }
-out.write("\r\n\r\n");
+out.write("\n\n");
 
 
 // End Of Main Template Body ----------------------------------------------------------------------

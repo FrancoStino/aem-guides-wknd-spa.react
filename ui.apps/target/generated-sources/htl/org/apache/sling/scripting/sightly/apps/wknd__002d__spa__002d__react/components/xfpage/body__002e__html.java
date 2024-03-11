@@ -35,17 +35,17 @@ public final class body__002e__html extends RenderUnit {
 // Main Template Body -----------------------------------------------------------------------------
 
 Object _dynamic_resource = bindings.get("resource");
-out.write("\r\n\r\n<div id=\"spa-root\">");
+out.write("\n\n<div id=\"spa-root\">");
 {
     Object var_resourcecontent0 = renderContext.call("includeResource", _dynamic_resource, obj().with("resourceType", "cq/remote/content/renderer/request/handler"));
     out.write(renderContext.getObjectModel().toString(var_resourcecontent0));
 }
-out.write("</div>\r\n");
+out.write("</div>\n");
 {
     Object var_includedresult1 = renderContext.call("include", "footerlibs.html", obj());
     out.write(renderContext.getObjectModel().toString(var_includedresult1));
 }
-out.write("\r\n");
+out.write("\n");
 
 
 // End Of Main Template Body ----------------------------------------------------------------------

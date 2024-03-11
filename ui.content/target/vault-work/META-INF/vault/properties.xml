@@ -5,7 +5,7 @@
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="acHandling">merge</entry>
 <entry key="dependencies-locations">com.adobe.aem.guides.wkndspa.react:aem-guides-wknd-spa.react.ui.apps:1.0.0-SNAPSHOT=maven:com.adobe.aem.guides.wkndspa.react:aem-guides-wknd-spa.react.ui.apps:1.0.0-SNAPSHOT:zip</entry>
-<entry key="created">2024-03-10T20:13:51.126Z</entry>
+<entry key="created">2024-03-11T14:03:06.494Z</entry>
 <entry key="groupId">com.adobe.aem.guides.wkndspa.react</entry>
 <entry key="description">UI content package for WKND SPA React</entry>
 <entry key="version">1.0.0-SNAPSHOT</entry>
