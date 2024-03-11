@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
-Build-Jdk-Spec: 17
+Build-Jdk-Spec: 11
 Implementation-Title: WKND SPA React - UI apps
 Implementation-Version: 1.0.0-SNAPSHOT
 Content-Package-Type: application
@@ -9,4 +9,7 @@ Content-Package-Id: com.adobe.aem.guides.wkndspa.react:aem-guides-wknd-s
 Content-Package-Description: UI apps package for WKND SPA React
 Content-Package-Roots: /apps/wknd-spa-react/clientlibs,/apps/wknd-spa-re
  act/components,/apps/wknd-spa-react/i18n
+Import-Package: com.adobe.aem.guides.wkndspa.react.core.models;version="
+ [1.0.0,2.0.0)",com.adobe.aem.spa.project.core.models;version="[1.1.0,2.
+ 0.0)",org.apache.sling.scripting.sightly;version="[2.0.0,3.0.0)"
 

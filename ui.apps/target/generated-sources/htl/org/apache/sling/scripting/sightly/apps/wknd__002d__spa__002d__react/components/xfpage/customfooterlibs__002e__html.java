@@ -36,9 +36,9 @@ public final class customfooterlibs__002e__html extends RenderUnit {
 
 Object _global_clientlib = null;
 Object _dynamic_wcmmode = bindings.get("wcmmode");
-out.write("\r\n\r\n");
+out.write("\n\n");
 _global_clientlib = renderContext.call("use", "/libs/granite/sightly/templates/clientlib.html", obj());
-out.write("\r\n");
+out.write("\n");
 {
     Object var_testvariable0 = ((renderContext.getObjectModel().toBoolean(renderContext.getObjectModel().resolveProperty(_dynamic_wcmmode, "edit")) ? renderContext.getObjectModel().resolveProperty(_dynamic_wcmmode, "edit") : renderContext.getObjectModel().resolveProperty(_dynamic_wcmmode, "preview")));
     if (renderContext.getObjectModel().toBoolean(var_testvariable0)) {
@@ -54,7 +54,7 @@ out.write("\r\n");
         }
     }
 }
-out.write("\r\n\r\n");
+out.write("\n\n");
 {
     Object var_templatevar3 = renderContext.getObjectModel().resolveProperty(_global_clientlib, "js");
     {
@@ -65,7 +65,7 @@ out.write("\r\n\r\n");
         }
     }
 }
-out.write("\r\n\r\n\r\n\r\n\r\n");
+out.write("\n\n\n\n\n");
 
 
 // End Of Main Template Body ----------------------------------------------------------------------

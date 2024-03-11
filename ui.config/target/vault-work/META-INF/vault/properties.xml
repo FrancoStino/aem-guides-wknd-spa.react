@@ -4,7 +4,7 @@
 <comment>WKND SPA React - UI config</comment>
 <entry key="cloudManagerTarget">none</entry>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2024-03-10T20:13:51.030Z</entry>
+<entry key="created">2024-03-11T14:03:06.797Z</entry>
 <entry key="groupId">com.adobe.aem.guides.wkndspa.react</entry>
 <entry key="name">aem-guides-wknd-spa.react.ui.config</entry>
 <entry key="description">UI config package for WKND SPA React</entry>

@@ -37,9 +37,9 @@ public final class customheaderlibs__002e__html extends RenderUnit {
 Object _global_clientlib = null;
 Object _global_page = null;
 Object _dynamic_wcmmode = bindings.get("wcmmode");
-out.write("\r\n");
+out.write("\n");
 _global_clientlib = renderContext.call("use", "/libs/granite/sightly/templates/clientlib.html", obj());
-out.write("\r\n    ");
+out.write("\n    ");
 {
     Object var_templatevar0 = renderContext.getObjectModel().resolveProperty(_global_clientlib, "css");
     {
@@ -50,7 +50,7 @@ out.write("\r\n    ");
         }
     }
 }
-out.write("\r\n\r\n\r\n\r\n<meta name=\"theme-color\" content=\"#000000\"/>\r\n<link rel=\"icon\" href=\"/etc.clientlibs/wknd-spa-react/clientlibs/clientlib-react/resources/favicon.ico\"/>\r\n<link rel=\"apple-touch-icon\" href=\"/etc.clientlibs/wknd-spa-react/clientlibs/clientlib-react/resources/logo192.png\"/>\r\n<link rel=\"manifest\" href=\"/etc.clientlibs/wknd-spa-react/clientlibs/clientlib-react/resources/manifest.json\"/>\r\n\r\n<!-- AEM page model -->\r\n");
+out.write("\n\n\n\n<meta name=\"theme-color\" content=\"#000000\"/>\n<link rel=\"icon\" href=\"/etc.clientlibs/wknd-spa-react/clientlibs/clientlib-react/resources/favicon.ico\"/>\n<link rel=\"apple-touch-icon\" href=\"/etc.clientlibs/wknd-spa-react/clientlibs/clientlib-react/resources/logo192.png\"/>\n<link rel=\"manifest\" href=\"/etc.clientlibs/wknd-spa-react/clientlibs/clientlib-react/resources/manifest.json\"/>\n\n<!-- AEM page model -->\n");
 _global_page = renderContext.call("use", com.adobe.aem.spa.project.core.models.Page.class.getName(), obj());
 out.write("<meta property=\"cq:pagemodel_root_url\"");
 {
@@ -73,28 +73,28 @@ out.write("<meta property=\"cq:pagemodel_root_url\"");
         }
     }
 }
-out.write("/>\r\n\r\n");
+out.write("/>\n\n");
 {
     Object var_testvariable6 = ((renderContext.getObjectModel().toBoolean(renderContext.getObjectModel().resolveProperty(_dynamic_wcmmode, "edit")) ? renderContext.getObjectModel().resolveProperty(_dynamic_wcmmode, "edit") : renderContext.getObjectModel().resolveProperty(_dynamic_wcmmode, "preview")));
     if (renderContext.getObjectModel().toBoolean(var_testvariable6)) {
         out.write("<meta property=\"cq:datatype\" content=\"JSON\"/>");
     }
 }
-out.write("\r\n");
+out.write("\n");
 {
     Object var_testvariable7 = renderContext.getObjectModel().resolveProperty(_dynamic_wcmmode, "edit");
     if (renderContext.getObjectModel().toBoolean(var_testvariable7)) {
         out.write("<meta property=\"cq:wcmmode\" content=\"edit\"/>");
     }
 }
-out.write("\r\n");
+out.write("\n");
 {
     Object var_testvariable8 = renderContext.getObjectModel().resolveProperty(_dynamic_wcmmode, "preview");
     if (renderContext.getObjectModel().toBoolean(var_testvariable8)) {
         out.write("<meta property=\"cq:wcmmode\" content=\"preview\"/>");
     }
 }
-out.write("\r\n\r\n");
+out.write("\n\n");
 
 
 // End Of Main Template Body ----------------------------------------------------------------------
