@@ -1,5 +1,6 @@
 //Header.js
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 require ('./Header.css');
 
 export default class Header extends Component {
@@ -8,7 +9,9 @@ export default class Header extends Component {
         return (
                 <header className="Header">
                     <div className="Header-container">
+                   <Link to ="/content/wknd-spa-react/us/en/home.html">
                         <h1>WKND ciao</h1>
+                        </Link>
                     </div>
                 </header>
         );
