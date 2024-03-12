@@ -21,8 +21,8 @@ function ReactWeatherWrapper(props) {
         key: API_KEY,
         lat: props.lat, // passed in from AEM JSON
         lon: props.lon, // passed in from AEM JSON
-        lang: 'en',
-        unit: 'imperial', // values are (metric, standard, imperial)
+        lang: 'it',
+        unit: 'standard', // values are (metric, standard, imperial)
     });
 
     return (
@@ -34,7 +34,7 @@ function ReactWeatherWrapper(props) {
                 lang="en"
                 locationLabel={props.label} // passed in from AEM JSON
                 unitsLabels={{ temperature: 'F', windSpeed: 'mph' }}
-                showForecast={false}
+                showForecast={true}
               />
         </div>
     );
