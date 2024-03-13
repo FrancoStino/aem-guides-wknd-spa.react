@@ -21,6 +21,7 @@ import './ExperienceFragment/ExperienceFragment';
 import './Text/Text';
 import './Image/Image';
 import './OpenWeather/OpenWeather';
+import './Banner/Banner';
 
 import {MapTo} from '@adobe/aem-react-editable-components';
 
